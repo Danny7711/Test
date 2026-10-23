@@ -1,16 +1,185 @@
-header {
-   background-image: url('header-background.jpg');
-   background-size: cover;
-   color: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-footer {
-   font-size: 0.9rem;
-   letter-spacing: 1px;
+body {
+    font-family: Arial, sans-serif;
+    color: #4d4d4d;
 }
 
-.main-content {
-   border: 1px solid #ddd;
-   border-radius: 10px;
-   padding: 20px;
+.navbar {
+    min-height: 70px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #263238;
+}
+
+.logo-icon {
+    color: #4caf50;
+}
+
+.nav-link {
+    font-size: 13px;
+    color: #263238;
+}
+
+.login {
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.btn-green:hover {
+    background-color: #388e3c;
+    color: white;
+}
+
+.hero {
+    background-color: #f5f7fa;
+    padding: 65px 0;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 4vw, 46px);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #4caf50;
+}
+
+.hero p {
+    font-size: 13px;
+    color: #717171;
+    margin-bottom: 25px;
+}
+
+.register {
+    padding: 12px 28px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 350px;
+}
+
+.section-padding {
+    padding: 30px 0;
+}
+
+.clients h2,
+.community h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.clients p,
+.community > .container > p {
+    font-size: 13px;
+    color: #717171;
+    margin-top: 8px;
+}
+
+.client-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 30px auto 10px;
+    max-width: 850px;
+    color: #263238;
+}
+
+.client-logos span {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.client-logos .logo-word {
+    font-size: 11px;
+    line-height: 0.9;
+    transform: rotate(-10deg);
+}
+
+.community {
+    padding-top: 20px;
+}
+
+.community-card {
+    height: 100%;
+    padding: 22px 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+    background-color: white;
+}
+
+.card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 42px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    font-size: 28px;
+}
+
+.community-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 10px;
+}
+
+.community-card p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #717171;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 45px 0;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .client-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .community-card {
+        max-width: 360px;
+        margin: 0 auto;
+    }
 }

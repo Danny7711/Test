@@ -67,7 +67,7 @@ body {
 }
 
 .hero p {
-    font-size: 13px;
+    font-size: 16px;
     color: #717171;
     margin-bottom: 25px;
 }
@@ -129,6 +129,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
     background-color: white;
+    
 }
 
 .card-icon {
@@ -152,12 +153,13 @@ body {
 }
 
 .community-card p {
-    display: flex;
-    flex-direction: row;
+     
     font-size: 14px;
     line-height: 1.5;
     color: #717171;
     margin-bottom: 0;
+    gap: 8px;
+    
 }
 
 @media (max-width: 767px) {

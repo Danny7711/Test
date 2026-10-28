@@ -13,6 +13,9 @@ body {
 .navbar {
     min-height: 70px;
 }
+.navbar-nav {
+    transform: translateX(-100px);
+}
 
 .logo {
     font-size: 22px;
@@ -185,5 +188,74 @@ body {
     .community-card {
         max-width: 360px;
         margin: 0 auto;
+    }
+}
+
+.pixelgrade {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+    margin: 30px 0;
+}
+
+.pixelgrade-image {
+    flex: 0 0 35%;
+}
+
+.pixelgrade-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pixelgrade-content {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.pixelgrade-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #4d4d4d;
+    margin-bottom: 16px;
+}
+
+.pixelgrade-content p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #717171;
+    margin-bottom: 26px;
+}
+
+.pixelgrade-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.pixelgrade-button:hover {
+    background-color: #388e3c;
+}
+
+@media (max-width: 768px) {
+    .pixelgrade {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pixelgrade-image {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .pixelgrade-content h2 {
+        font-size: 26px;
     }
 }

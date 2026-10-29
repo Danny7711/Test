@@ -465,3 +465,158 @@ body {
 .blog-link:hover {
     color: #388e3c;
 }
+
+/* FOOTER CTA */
+
+.footer-cta {
+    background-color: #f5f7fa;
+    padding: 32px 0 24px;
+}
+
+.footer-cta h2 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1.12;
+    color: #263238;
+    margin-bottom: 28px;
+}
+
+.footer-demo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    background-color: #4caf4f;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.footer-demo-btn:hover {
+    background-color: #388e3c;
+    color: white;
+}
+
+/* MAIN FOOTER */
+
+.main-footer {
+    background-color: #263238;
+    padding: 52px 0 50px;
+    color: #fff;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 26px;
+}
+
+.footer-brand img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.footer-brand span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    line-height: 2;
+    color: #f5f7fa;
+    margin-bottom: 28px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #3b464c;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-socials a:hover {
+    background-color: #4caf4f;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    font-size: 12px;
+    color: #f5f7fa;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #4caf4f;
+}
+
+/* NEWSLETTER */
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    background-color: #515b60;
+    border-radius: 6px;
+    padding: 8px 10px;
+    max-width: 230px;
+}
+
+.footer-form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    min-width: 0;
+}
+
+.footer-form input::placeholder {
+    color: #d9dbe1;
+}
+
+.footer-form button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+.footer-form button:hover {
+    color: #4caf4f;
+}

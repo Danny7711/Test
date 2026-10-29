@@ -324,3 +324,144 @@ body {
 .design-content .btn-green:hover {
     background-color: #388e3c;
 }
+
+/* TESTIMONIAL */
+
+.testimonial {
+    background-color: #f5f7fa;
+    padding: 32px 0;
+}
+
+.testimonial-img {
+    width: 100%;
+    max-width: 300px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #717171;
+    margin-bottom: 16px;
+}
+
+.customer-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4caf4f;
+    margin-bottom: 8px;
+}
+
+.customer-position {
+    font-size: 14px;
+    color: #89939e;
+    margin-bottom: 24px;
+}
+
+.customer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.customer-logos img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.meet-customers {
+    color: #4caf4f;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.meet-customers i {
+    margin-left: 8px;
+}
+
+.meet-customers:hover {
+    color: #388e3c;
+}
+
+
+/* BLOG SECTION */
+
+.blog-section {
+    padding: 40px 0 80px;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4d4d4d;
+    margin-bottom: 8px;
+}
+
+.blog-description {
+    font-size: 14px;
+    color: #717171;
+    line-height: 1.5;
+    max-width: 630px;
+    margin: 0 auto 14px;
+}
+
+.blog-card {
+    position: relative;
+    padding-bottom: 65px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-content {
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    width: 86%;
+    min-height: 140px;
+    background-color: #f5f7fa;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-content h5 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #717171;
+    margin-bottom: 12px;
+}
+
+.blog-link {
+    color: #4caf4f;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-link i {
+    margin-left: 8px;
+}
+
+.blog-link:hover {
+    color: #388e3c;
+}
